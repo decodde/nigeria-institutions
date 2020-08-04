@@ -1,3 +1,5 @@
+import React from 'react';
+
 const universitiesSorted = [
   'Abia State University',
   'Abubakar Tafawa Balewa University',
@@ -424,7 +426,7 @@ export const schoolOfHealthSorted = [
   'Others'
 ];
 
-const collegeOfAgriculturSorted = [
+const collegeOfAgricultureSorted = [
   'College of Agriculture (DAC), Kabba, Kogi State.',
   'Federal College of Agriculture Akure, Ondo State.',
    'Federal College of Agriculture, Dadinkowa, Gombe State.',
@@ -476,7 +478,7 @@ let universities = universitiesSorted.sort((a, b) => {
 });
 
 //Sorting data from the frontend
-let collegeOfAgriculture = collegeOfAgriculturSorted.sort((a, b) => {
+let collegeOfAgriculture = collegeOfAgricultureSorted.sort((a, b) => {
   if (b > a) {
     return -1
   } else {
